@@ -1,0 +1,13 @@
+plugins:
+  duplication:
+    enabled: false
+  structure:
+    enabled: false
+  golangci-lint:
+    enabled: true
+exclude_paths:
+  - .vscode/**
+  - discovery
+  - config
+  - tsdb/test/**
+  - web/web.go
